@@ -5,9 +5,6 @@
   <meta charset="utf-8">
   <title>TinDog</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Ubuntu:400,700" rel="stylesheet">
-
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
@@ -20,6 +17,8 @@
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Ubuntu:400,700" rel="stylesheet">
 
 </head>
 
@@ -43,12 +42,12 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link contact" href="">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link price" href="">Pricing</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item download">
               <a class="nav-link" href="">Download</a>
             </li>
           </ul>
@@ -61,13 +60,13 @@
         <div class="col-lg-6 meet-new">
           <div>
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button" class="btn btn-dark btn-lg">Download</button>
-            <button type="button" class="btn btn-outline-light btn-lg">Download</button>
+            <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
           </div>
         </div>
 
         <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup">
+          <img class="img-fluid" src="images/iphone6.png" alt="iphone-mockup">
         </div>
 
       </div>
@@ -81,14 +80,26 @@
 
   <section id="features">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 feature-box">
+        <a href="#"><i class="fas fa-check-circle fa-4x"></i></a>
+        <h3>Easy to use</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+      <div class="col-lg-4 col-sm-12 feature-box">
+        <a href="#"><i class="fas fa-bullseye fa-4x"></i></a>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+      <div class="col-lg-4 col-sm-12 feature-box">
+        <a href="#"><i class="fas fa-heart fa-4x"></i></a>
+        <h3>Guaranteed to work</h3>
+        <p>Find the love of your dog's life or get your money back.</p>
+      </div>
+    </div>
+    </div>
 
   </section>
 
