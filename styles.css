@@ -7,23 +7,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h2 {
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 1.5;
-}
-
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 p {
   color: #8f8f8f;
 }
@@ -62,6 +45,12 @@ p {
   font-weight: 300;
 }
 
+.title-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 /* DOWNLOAD BUTTONS */
 .download-button {
   font-weight: 300;
@@ -80,16 +69,21 @@ p {
 }
 
 /* FEATURES */
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+}
+
 .feature-box {
   display: inline-block;
   margin: 0 auto;
   text-align: center;
 }
 
-#features {
-  background-color: #fff;
-  padding: 7% 15%;
-  position: relative;
+.feature-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .icon {
@@ -108,7 +102,7 @@ p {
   text-align: center;
 }
 
-.testimonial-image {
+.testimonials-image {
   border-radius: 100%;
   margin: 20px;
   width: 10%;
@@ -116,6 +110,12 @@ p {
 
 .carousel-item {
   padding: 7% 15%;
+}
+
+.testimonials-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 /* PRESS */
@@ -140,7 +140,7 @@ p {
   padding: 3% 2%;
 }
 
-@@media (max-width: 1028px) {
+@media (max-width: 1028px) {
   #title {
     text-align: center;
   }
@@ -176,6 +176,22 @@ p {
 .cta-button {
   font-weight: 300;
   margin: 2% 1.5% 2% 0;
+}
+
+/* NEWSLETTER */
+.newsletter-form {
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.subscribe-text {
+  font-size: 1rem;
+  padding: 0 32%;
+}
+
+.form {
+  padding: 3% 30%;
+  text-align: center;
 }
 
 /* FOOTER */
